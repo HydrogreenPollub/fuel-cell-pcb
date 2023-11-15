@@ -1,29 +1,6 @@
 {
   "board": {
     "3dviewports": [],
-    "design_settings": {
-      "defaults": {
-        "board_outline_line_width": 0.1,
-        "copper_line_width": 0.2,
-        "copper_text_size_h": 1.5,
-        "copper_text_size_v": 1.5,
-        "copper_text_thickness": 0.3,
-        "other_line_width": 0.15,
-        "silk_line_width": 0.15,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15
-      },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
-      "rules": {
-        "min_copper_edge_clearance": 0.0,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0
-      },
-      "track_widths": [],
-      "via_dimensions": []
-    },
     "layer_presets": [],
     "viewports": []
   },
@@ -232,7 +209,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -264,9 +241,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -330,6 +307,10 @@
     [
       "ed70203f-44bf-4bdc-8b45-a710eb8fc309",
       "Power "
+    ],
+    [
+      "f92f58ec-64e0-437c-bc00-8ae46a3b3054",
+      "MCU"
     ],
     [
       "e4695f4d-6fa6-4597-a598-6a2f28a255eb",
