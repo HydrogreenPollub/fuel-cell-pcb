@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2023-11-20_17-31-45")(type "KiCad")(uri "${KIPRJMOD}/Lib/2023-11-20_17-31-45.kicad_sym")(options "")(descr ""))
+  (lib (name "IHLP6767DZER470M11")(type "KiCad")(uri "${KIPRJMOD}/Lib/IHLP6767DZER470M11.kicad_sym")(options "")(descr ""))
+  (lib (name "MBRD20100CT-13")(type "KiCad")(uri "${KIPRJMOD}/Lib/MBRD20100CT-13.kicad_sym")(options "")(descr ""))
+  (lib (name "PM4343.473NLT")(type "Legacy")(uri "${KIPRJMOD}/Lib/PM4343.473NLT.lib")(options "")(descr ""))
+  (lib (name "PM4343_473NLT")(type "KiCad")(uri "${KIPRJMOD}/Lib/PM4343_473NLT.kicad_sym")(options "")(descr ""))
+  (lib (name "p-mosfet")(type "KiCad")(uri "${KIPRJMOD}/Lib/DMP10H400SK3-13.kicad_sym")(options "")(descr ""))
+)
