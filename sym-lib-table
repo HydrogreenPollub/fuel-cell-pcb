@@ -11,4 +11,5 @@
   (lib (name "sir186 ldp-t1-re3 mosfet 60v")(type "KiCad")(uri "${KIPRJMOD}/Lib/SIR186LDP-T1-RE3.kicad_sym")(options "")(descr ""))
   (lib (name "smmbt3904 npn")(type "KiCad")(uri "${KIPRJMOD}/Lib/SMMBT3904WT1G.kicad_sym")(options "")(descr ""))
   (lib (name "smmbt3906  pnp")(type "KiCad")(uri "${KIPRJMOD}/Lib/SMMBT3906LT1G.kicad_sym")(options "")(descr ""))
+  (lib (name "usb c molex")(type "KiCad")(uri "${KIPRJMOD}/Lib/216990-0002.kicad_sym")(options "")(descr ""))
 )
