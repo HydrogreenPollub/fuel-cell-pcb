@@ -12,4 +12,6 @@
   (lib (name "smmbt3904 npn")(type "KiCad")(uri "${KIPRJMOD}/Lib/SMMBT3904WT1G.kicad_sym")(options "")(descr ""))
   (lib (name "smmbt3906  pnp")(type "KiCad")(uri "${KIPRJMOD}/Lib/SMMBT3906LT1G.kicad_sym")(options "")(descr ""))
   (lib (name "usb c molex")(type "KiCad")(uri "${KIPRJMOD}/Lib/216990-0002.kicad_sym")(options "")(descr ""))
+  (lib (name "crystal")(type "KiCad")(uri "${KIPRJMOD}/Lib/KC3225K40_0000C1GE00.kicad_sym")(options "")(descr ""))
+  (lib (name "Lm7602 ideal diode")(type "KiCad")(uri "${KIPRJMOD}/Lib/LM76202QPWPRQ1.kicad_sym")(options "")(descr ""))
 )
