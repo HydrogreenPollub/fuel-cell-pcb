@@ -457,7 +457,12 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+12V": "rgb(255, 13, 48)",
+      "+3.3V": "rgb(140, 10, 255)",
+      "/VBUS": "rgb(249, 77, 255)",
+      "GND": "rgb(89, 255, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
