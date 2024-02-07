@@ -14,4 +14,6 @@
   (lib (name "usb c molex")(type "KiCad")(uri "${KIPRJMOD}/Lib/216990-0002.kicad_sym")(options "")(descr ""))
   (lib (name "crystal")(type "KiCad")(uri "${KIPRJMOD}/Lib/KC3225K40_0000C1GE00.kicad_sym")(options "")(descr ""))
   (lib (name "Lm7602 ideal diode")(type "KiCad")(uri "${KIPRJMOD}/Lib/LM76202QPWPRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "mosfet logic")(type "KiCad")(uri "${KIPRJMOD}/Lib/sot1220_mosfet.kicad_sym")(options "")(descr ""))
+  (lib (name "Schotky 2A")(type "KiCad")(uri "${KIPRJMOD}/Lib/PMEG10020ELRX.kicad_sym")(options "")(descr ""))
 )

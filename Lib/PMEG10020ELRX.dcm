@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PMEG10020ELRX
+D Schottky Diodes & Rectifiers 2A Schottky Barrier Rectifier
+K
+F https://assets.nexperia.com/documents/data-sheet/PMEG10020ELR.pdf
+$ENDCMP
+#
+#End Doc Library
