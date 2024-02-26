@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PMPB15XPAX
+#/1723861/1178077/2.50/8/3/MOSFET (P-Channel)
+DEF PMPB15XPAX Q 0 30 Y Y 1 F N
+F0 "Q" 850 300 50 H V L CNN
+F1 "PMPB15XPAX" 850 200 50 H V L CNN
+F2 "PMPB15XPAX" 850 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/PMPB15XPA.pdf" 850 0 50 H I L CNN
+F4 "MOSFET 12V N-CHANNEL TRENCHMOS P-Channel 12 V 8.2A (Ta) 1.7W (Ta), 12.5W (Tc) Surface Mount DFN2020MD-6" 850 -100 50 H I L CNN "Description"
+F5 "0.65" 850 -200 50 H I L CNN "Height"
+F6 "771-PMPB15XPAX" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Nexperia/PMPB15XPAX?qs=F5EMLAvA7ID3LuG5%252BJARTg%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Nexperia" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PMPB15XPAX" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X D_1 1 0 0 200 R 50 50 0 0 P
+X D_2 2 0 -100 200 R 50 50 0 0 P
+X G 3 0 -200 200 R 50 50 0 0 P
+X S_1 4 0 -300 200 R 50 50 0 0 P
+X D_3 5 1000 0 200 L 50 50 0 0 P
+X D_4 6 1000 -100 200 L 50 50 0 0 P
+X D_5 7 1000 -200 200 L 50 50 0 0 P
+X S_2 8 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

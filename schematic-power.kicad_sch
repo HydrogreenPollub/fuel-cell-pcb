@@ -1123,9 +1123,6 @@
   (junction (at 141.097 80.01) (diameter 0) (color 0 0 0 0)
     (uuid 77693e5e-8f11-43ac-87f2-8a1bc4bb9658)
   )
-  (junction (at 148.717 53.34) (diameter 0) (color 0 0 0 0)
-    (uuid 7e84cab2-5e20-4704-a28e-5f780b5b5216)
-  )
   (junction (at 128.397 62.23) (diameter 0) (color 0 0 0 0)
     (uuid 7e90bdd4-a428-4afd-a2ac-f5d6f150bbf7)
   )
@@ -1134,6 +1131,9 @@
   )
   (junction (at 53.467 109.3216) (diameter 0) (color 0 0 0 0)
     (uuid 80e82ed1-1e6a-4d86-a9fa-1023e031a24e)
+  )
+  (junction (at 153.035 53.34) (diameter 0) (color 0 0 0 0)
+    (uuid 8fd47e32-3447-4970-a8e5-56140a1c4ca3)
   )
   (junction (at 141.097 53.34) (diameter 0) (color 0 0 0 0)
     (uuid 90ae2837-a985-497c-aed6-05369a0be192)
@@ -1344,6 +1344,10 @@
     (stroke (width 0) (type default))
     (uuid 470cafcd-b81d-4399-acc1-16d21fec7ba5)
   )
+  (wire (pts (xy 153.035 53.34) (xy 166.497 53.34))
+    (stroke (width 0) (type default))
+    (uuid 471c9093-66ab-4207-b770-b9b0dfcbb026)
+  )
   (wire (pts (xy 179.07 118.11) (xy 187.96 118.11))
     (stroke (width 0) (type default))
     (uuid 47310ce3-14dd-4a32-bd4f-de7b9856d528)
@@ -1400,13 +1404,9 @@
     (stroke (width 0) (type default))
     (uuid 6857589c-5da2-4506-a0e3-c7af8403f5c9)
   )
-  (wire (pts (xy 141.097 80.01) (xy 148.717 80.01))
+  (wire (pts (xy 141.097 80.01) (xy 153.035 80.01))
     (stroke (width 0) (type default))
     (uuid 691d830b-4439-4675-9a39-1a58b97fdcb8)
-  )
-  (wire (pts (xy 166.497 53.34) (xy 162.687 53.34))
-    (stroke (width 0) (type default))
-    (uuid 6af2f763-7aff-4e19-9efa-88a9de6b7c2b)
   )
   (wire (pts (xy 105.537 80.01) (xy 105.537 76.2))
     (stroke (width 0) (type default))
@@ -1604,7 +1604,7 @@
     (stroke (width 0) (type default))
     (uuid c20699a8-fbe9-4e06-963d-c030b15af783)
   )
-  (wire (pts (xy 148.717 60.96) (xy 148.717 80.01))
+  (wire (pts (xy 153.035 60.96) (xy 153.035 80.01))
     (stroke (width 0) (type default))
     (uuid c4847449-916a-40b9-95e4-e9237521407f)
   )
@@ -1668,10 +1668,6 @@
     (stroke (width 0) (type default))
     (uuid dc77ec07-b649-4355-a933-49a4f6326ee1)
   )
-  (wire (pts (xy 141.097 53.34) (xy 148.717 53.34))
-    (stroke (width 0) (type default))
-    (uuid de967b14-bf24-4ee1-9e3f-50e2996aa140)
-  )
   (wire (pts (xy 97.917 80.01) (xy 97.917 73.66))
     (stroke (width 0) (type default))
     (uuid e076fb65-2db4-4a40-967b-d54e3301b6fe)
@@ -1720,7 +1716,7 @@
     (stroke (width 0) (type default))
     (uuid f8cc76b1-b9d9-400f-a243-893f0c1c1ee1)
   )
-  (wire (pts (xy 155.067 53.34) (xy 148.717 53.34))
+  (wire (pts (xy 141.097 53.34) (xy 153.035 53.34))
     (stroke (width 0) (type default))
     (uuid fb6f8d4c-0008-40c9-bef9-8dd37d9c8bb6)
   )
@@ -1842,7 +1838,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "C4") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -1857,7 +1853,7 @@
     (property "Value" "FC test" (at 50.165 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 55.245 45.72 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" (at 55.245 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 55.245 45.72 0)
@@ -1870,7 +1866,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "TP13") (unit 1)
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -1879,7 +1875,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 254 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 093fba22-aaaf-4f79-81c5-f0e35112249a)
-    (property "Reference" "#FLG03" (at 254 123.825 0)
+    (property "Reference" "#FLG01" (at 254 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 254 120.65 0)
@@ -1895,7 +1891,7 @@
     (instances
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG01") (unit 1)
         )
       )
     )
@@ -1926,7 +1922,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "C1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -1935,7 +1931,7 @@
   (symbol (lib_id "IHLP6767DZER470M11:IHLP6767DZER470M11") (at 118.237 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fb9fecf-16af-4f8a-a0cf-26bcd537d4f6)
-    (property "Reference" "L3" (at 128.397 46.99 0)
+    (property "Reference" "L1" (at 128.397 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "IHLP6767DZER470M11" (at 128.397 49.53 0)
@@ -1967,7 +1963,7 @@
     (instances
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "L3") (unit 1)
+          (reference "L1") (unit 1)
         )
       )
     )
@@ -1976,7 +1972,7 @@
   (symbol (lib_id "Device:R") (at 141.097 73.66 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0feb5042-2ea9-4e6e-88de-c6f4fb33e756)
-    (property "Reference" "R25" (at 143.637 72.39 0)
+    (property "Reference" "R13" (at 143.637 72.39 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "49k9" (at 143.637 74.93 0)
@@ -1993,7 +1989,7 @@
     (instances
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "R25") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -2002,7 +1998,7 @@
   (symbol (lib_id "MBRD20100CT-13:MBRD20100CT-13") (at 105.537 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10c2c555-38ae-4d24-9827-aac23a59cc6b)
-    (property "Reference" "D7" (at 113.157 72.39 90)
+    (property "Reference" "D2" (at 113.157 72.39 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MBRD20100CT-13" (at 109.347 74.93 90)
@@ -2035,7 +2031,7 @@
     (instances
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "D7") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -2044,7 +2040,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 50.292 59.69 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 14d68bdf-9274-48a5-88d9-fae78827f10c)
-    (property "Reference" "C26" (at 46.482 57.531 0)
+    (property "Reference" "C1" (at 46.482 57.531 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 46.482 60.071 0)
@@ -2061,7 +2057,7 @@
     (instances
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "C26") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2091,7 +2087,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2100,7 +2096,7 @@
   (symbol (lib_id "Device:R") (at 122.047 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18f5ffb2-df6c-4c16-b3ff-c65f52e64721)
-    (property "Reference" "R15" (at 122.047 55.88 90)
+    (property "Reference" "R10" (at 122.047 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "143k " (at 123.317 58.42 90)
@@ -2117,7 +2113,7 @@
     (instances
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "R15") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2148,7 +2144,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "C9") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2179,7 +2175,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "L1") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -2188,7 +2184,7 @@
   (symbol (lib_id "Device:C") (at 134.747 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a5f1c5d-454d-4b9e-b6e9-4b2e05a357d8)
-    (property "Reference" "C30" (at 137.287 55.88 90)
+    (property "Reference" "C6" (at 137.287 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3n3" (at 137.287 58.42 90)
@@ -2205,7 +2201,7 @@
     (instances
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "C30") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -2236,25 +2232,25 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "R7") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 148.717 57.15 0) (mirror y) (unit 1)
+  (symbol (lib_id "Device:C_Polarized") (at 153.035 57.15 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34d5edc1-6c5d-481b-aa60-d71c8e1302ab)
-    (property "Reference" "C27" (at 149.987 48.26 0)
+    (property "Reference" "C8" (at 154.305 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22u" (at 149.987 50.8 0)
+    (property "Value" "22u" (at 154.305 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5" (at 147.7518 60.96 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5" (at 152.0698 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 148.717 57.15 0)
+    (property "Datasheet" "~" (at 153.035 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fc1c18d5-1a20-49e6-82f1-4346c0f8662f))
@@ -2262,7 +2258,7 @@
     (instances
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "C27") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -2271,7 +2267,7 @@
   (symbol (lib_id "Device:C") (at 128.397 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39aa9843-d6a5-43a8-b3d0-c60e444f8487)
-    (property "Reference" "C29" (at 120.777 67.31 0)
+    (property "Reference" "C5" (at 120.777 67.31 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47p" (at 120.777 69.85 0)
@@ -2288,7 +2284,7 @@
     (instances
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "C29") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2318,7 +2314,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2327,7 +2323,7 @@
   (symbol (lib_id "Diode:BAS40-04") (at 163.83 118.11 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d052b40-4c59-40b6-884c-6c105740f673)
-    (property "Reference" "D2" (at 154.94 118.11 0)
+    (property "Reference" "D3" (at 154.94 118.11 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "MBRD20100CT-13" (at 157.48 118.11 0)
@@ -2345,7 +2341,7 @@
     (instances
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -2376,7 +2372,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "R6") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2407,7 +2403,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "C6") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -2437,7 +2433,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2446,7 +2442,7 @@
   (symbol (lib_id "2023-11-20_17-31-45:LM5013DDAR") (at 58.547 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5fd6921c-8423-4c66-bd0b-9ee501c1d327)
-    (property "Reference" "U6" (at 77.597 35.56 0)
+    (property "Reference" "U1" (at 77.597 35.56 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "LM5013DDAR" (at 77.597 38.1 0)
@@ -2470,7 +2466,7 @@
     (instances
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "U6") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -2501,7 +2497,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "C5") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2510,7 +2506,7 @@
   (symbol (lib_id "Device:R") (at 54.229 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ccab249-60b7-43db-be3d-707ac9d3805e)
-    (property "Reference" "R14" (at 57.15 68.58 0)
+    (property "Reference" "R5" (at 57.15 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 57.15 71.12 0)
@@ -2527,7 +2523,7 @@
     (instances
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "R14") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2558,7 +2554,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "R11") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -2567,7 +2563,7 @@
   (symbol (lib_id "Device:C") (at 105.537 49.53 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72dd8bb7-def5-4348-a9e4-149681ccf030)
-    (property "Reference" "C28" (at 109.347 48.26 0)
+    (property "Reference" "C3" (at 109.347 48.26 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "2n2" (at 109.347 50.8 0)
@@ -2584,7 +2580,7 @@
     (instances
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "C28") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2614,7 +2610,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -2675,7 +2671,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2706,7 +2702,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "C2") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -2736,7 +2732,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2767,7 +2763,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "R5") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2798,7 +2794,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "C7") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -2828,7 +2824,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2858,7 +2854,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2867,13 +2863,13 @@
   (symbol (lib_id "Lm7602 ideal diode:LM76202QPWPRQ1") (at 78.8924 106.7816 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a460234d-5892-442a-a5c1-5e312f78dfee)
-    (property "Reference" "IC2" (at 94.1324 99.2886 0)
+    (property "Reference" "IC1" (at 94.1324 99.2886 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM76202QPWPRQ1" (at 94.1324 101.8286 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "mbr:SOP65P640X120-17N" (at 105.5624 201.7016 0)
+    (property "Footprint" "library:SOP65P640X120-17N" (at 105.5624 201.7016 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm76202-q1" (at 105.5624 301.7016 0)
@@ -2914,7 +2910,7 @@
     (instances
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "IC2") (unit 1)
+          (reference "IC1") (unit 1)
         )
       )
     )
@@ -2929,7 +2925,7 @@
     (property "Value" "3A" (at 43.688 43.18 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "mbr:FUSC8664X180N" (at 43.688 47.498 90)
+    (property "Footprint" "library:FUSC8664X180N" (at 43.688 47.498 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 43.688 45.72 0)
@@ -2968,7 +2964,7 @@
           (reference "#PWR055") (unit 1)
         )
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2999,7 +2995,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "C3") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -3008,7 +3004,7 @@
   (symbol (lib_id "Device:R") (at 141.097 66.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid badae276-6bc2-45d6-84dd-be629be28d2a)
-    (property "Reference" "R24" (at 143.637 64.77 0)
+    (property "Reference" "R12" (at 143.637 64.77 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "453k" (at 143.637 67.31 0)
@@ -3025,7 +3021,7 @@
     (instances
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "R24") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -3093,7 +3089,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "C8") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -3124,7 +3120,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "R8") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -3155,33 +3151,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "R10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Fuse") (at 158.877 53.34 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e503d5cc-1a23-4bec-ace0-f191472c2cc3)
-    (property "Reference" "F2" (at 158.877 48.26 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "3A" (at 158.877 50.8 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "mbr:FUSC8664X180N" (at 158.877 55.118 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 158.877 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d600f5f3-e49c-43ba-be69-41d29c79e2e9))
-    (pin "2" (uuid f12fb963-fa53-4c8e-9e18-b23f7665356e))
-    (instances
-      (project "schematic-main"
-        (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "F2") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -3211,7 +3181,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -3239,7 +3209,7 @@
           (reference "#PWR055") (unit 1)
         )
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3270,7 +3240,7 @@
       )
       (project "schematic-main"
         (path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/ed70203f-44bf-4bdc-8b45-a710eb8fc309"
-          (reference "R9") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )

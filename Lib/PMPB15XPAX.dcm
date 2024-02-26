@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PMPB15XPAX
+D MOSFET 12V N-CHANNEL TRENCHMOS P-Channel 12 V 8.2A (Ta) 1.7W (Ta), 12.5W (Tc) Surface Mount DFN2020MD-6
+K
+F https://assets.nexperia.com/documents/data-sheet/PMPB15XPA.pdf
+$ENDCMP
+#
+#End Doc Library

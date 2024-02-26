@@ -1,8 +1,7 @@
 (fp_lib_table
   (version 7)
   (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/Lib/footprints.pretty")(options "")(descr ""))
-  (lib (name "mbr")(type "KiCad")(uri "${KIPRJMOD}/Lib")(options "")(descr ""))
   (lib (name "library")(type "KiCad")(uri "${KIPRJMOD}/Lib")(options "")(descr ""))
-  (lib (name "Lib")(type "KiCad")(uri "${KIPRJMOD}/Lib")(options "")(descr ""))
   (lib (name "MBRD20100CT-13")(type "Legacy")(uri "${KIPRJMOD}/Lib/MBRD20100CT-13.mod")(options "")(descr ""))
+  (lib (name "PMEG10020ELRX")(type "Legacy")(uri "${KIPRJMOD}/Lib/PMEG10020ELRX.mod")(options "")(descr ""))
 )
