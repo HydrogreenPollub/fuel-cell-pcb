@@ -1882,12 +1882,6 @@
 		)
 	)
 	(junction
-		(at 227.2538 126.8476)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d644e1a-ac78-4d0b-ae34-36ed60e27641")
-	)
-	(junction
 		(at 31.75 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1898,6 +1892,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2318c85a-4716-451a-897b-48d89006014c")
+	)
+	(junction
+		(at 226.06 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48726bc7-00f7-470a-902d-eeff48ea73a4")
 	)
 	(junction
 		(at 227.2538 124.3076)
@@ -1941,7 +1941,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.2538 137.5918) (xy 227.2538 134.4676)
+			(xy 227.2538 138.43) (xy 227.2538 134.4676)
 		)
 		(stroke
 			(width 0)
@@ -1951,23 +1951,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.055 137.5918) (xy 227.2538 137.5918)
+			(xy 198.12 138.43) (xy 227.2538 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "097688a4-92f1-4efd-82f2-97a2e7439ada")
-	)
-	(wire
-		(pts
-			(xy 227.3046 125.7508) (xy 227.3046 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e9d9cce-8320-4557-b945-9fa8a8ba5bb9")
 	)
 	(wire
 		(pts
@@ -2031,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 188.468 163.83) (xy 204.47 163.83)
+			(xy 200.66 163.83) (xy 204.47 163.83)
 		)
 		(stroke
 			(width 0)
@@ -2081,16 +2071,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.2538 125.7508) (xy 227.3046 125.7508)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c814fb5-6e60-429f-9c0c-c043ff971c45")
-	)
-	(wire
-		(pts
 			(xy 179.959 81.28) (xy 179.959 104.14)
 		)
 		(stroke
@@ -2111,7 +2091,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.055 158.9024) (xy 188.3918 158.9024)
+			(xy 198.12 158.75) (xy 200.5838 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2141,23 +2121,33 @@
 	)
 	(wire
 		(pts
-			(xy 186.1058 129.3876) (xy 186.1058 128.651)
+			(xy 187.96 81.28) (xy 187.96 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33328c57-4d81-40d4-be11-dad2c4f4bacc")
+		(uuid "340f9738-1887-4a5b-9906-2d219de49050")
 	)
 	(wire
 		(pts
-			(xy 188.468 161.8996) (xy 188.468 163.83)
+			(xy 200.66 162.56) (xy 200.66 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "37f4ecd8-8cbd-4a9d-a4ba-1f4b4b203208")
+	)
+	(wire
+		(pts
+			(xy 229.87 127) (xy 229.87 126.8476)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b68d87a-72fa-4977-98ae-19d7d7f3f9a1")
 	)
 	(wire
 		(pts
@@ -2171,7 +2161,27 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 129.3876) (xy 239.9538 129.3876)
+			(xy 195.58 81.28) (xy 195.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd2d8cd-bed8-4a87-9fa4-a8ffe2591bc1")
+	)
+	(wire
+		(pts
+			(xy 162.56 81.28) (xy 162.56 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e53547-f757-4d63-bbe1-a200259a40fe")
+	)
+	(wire
+		(pts
+			(xy 240.7412 129.3876) (xy 239.9538 129.3876)
 		)
 		(stroke
 			(width 0)
@@ -2191,7 +2201,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 107.95) (xy 134.62 107.95)
+			(xy 73.66 106.68) (xy 134.62 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2211,7 +2221,7 @@
 	)
 	(wire
 		(pts
-			(xy 188.3918 161.8996) (xy 188.468 161.8996)
+			(xy 200.5838 162.56) (xy 200.66 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2231,17 +2241,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.2538 129.3876) (xy 186.1058 129.3876)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5779ccb8-560a-4844-a8f3-ee8f1614f8c6")
-	)
-	(wire
-		(pts
-			(xy 225.7298 133.5024) (xy 225.7298 131.9276)
+			(xy 225.7298 134.62) (xy 225.7298 131.9276)
 		)
 		(stroke
 			(width 0)
@@ -2301,7 +2301,7 @@
 	)
 	(wire
 		(pts
-			(xy 188.3918 158.9024) (xy 188.3918 161.8996)
+			(xy 200.5838 158.75) (xy 200.5838 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2331,7 +2331,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.2538 126.8476) (xy 227.2538 125.7508)
+			(xy 224.79 125.73) (xy 224.79 127)
 		)
 		(stroke
 			(width 0)
@@ -2371,6 +2371,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 126.8476) (xy 227.2538 126.8476)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940c7ec4-bf4b-4abe-908e-ebc3609772c4")
+	)
+	(wire
+		(pts
 			(xy 73.66 33.02) (xy 134.62 33.02)
 		)
 		(stroke
@@ -2378,6 +2388,16 @@
 			(type default)
 		)
 		(uuid "94bd0556-0b3a-4d2a-a1f5-55fcca247f8e")
+	)
+	(wire
+		(pts
+			(xy 198.12 128.651) (xy 198.12 129.3876)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95562707-bad4-4708-9936-15c5eacd6869")
 	)
 	(wire
 		(pts
@@ -2481,7 +2501,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 130.3274) (xy 240.03 129.3876)
+			(xy 240.7412 130.3274) (xy 240.7412 129.3876)
 		)
 		(stroke
 			(width 0)
@@ -2491,17 +2511,27 @@
 	)
 	(wire
 		(pts
-			(xy 227.2538 126.8476) (xy 239.9538 126.8476)
+			(xy 226.06 127) (xy 226.06 126.8476)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bdfe66ac-337b-43d0-8afa-6102fa948a70")
+		(uuid "b2ead4a3-2e27-493c-9fa3-3cecf7efb413")
 	)
 	(wire
 		(pts
-			(xy 73.66 33.02) (xy 73.66 107.95)
+			(xy 229.87 126.8476) (xy 239.9538 126.8476)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b464c94a-8aff-497b-b082-ffc521767a97")
+	)
+	(wire
+		(pts
+			(xy 73.66 33.02) (xy 73.66 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2521,7 +2551,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.055 153.67) (xy 204.47 153.67)
+			(xy 198.12 153.67) (xy 204.47 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2541,7 +2571,17 @@
 	)
 	(wire
 		(pts
-			(xy 227.3046 125.73) (xy 186.055 125.73)
+			(xy 128.27 109.22) (xy 134.62 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c925372a-52e2-4585-a8b5-e9d9e4d663ad")
+	)
+	(wire
+		(pts
+			(xy 224.79 125.73) (xy 198.12 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2561,7 +2601,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.055 130.81) (xy 222.8088 130.81)
+			(xy 198.12 130.81) (xy 235.585 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2571,7 +2611,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.8088 130.3274) (xy 240.03 130.3274)
+			(xy 235.585 130.3274) (xy 240.7412 130.3274)
 		)
 		(stroke
 			(width 0)
@@ -2601,7 +2641,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.8088 130.81) (xy 222.8088 130.3274)
+			(xy 235.585 130.81) (xy 235.585 130.3274)
 		)
 		(stroke
 			(width 0)
@@ -2641,7 +2681,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.055 133.5024) (xy 225.7298 133.5024)
+			(xy 198.12 134.62) (xy 225.7298 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2711,6 +2751,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 127) (xy 226.06 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa5e157-65fd-41cd-b869-f990211258eb")
+	)
+	(wire
+		(pts
 			(xy 129.54 152.4) (xy 129.54 157.48)
 		)
 		(stroke
@@ -2738,6 +2788,16 @@
 			(type default)
 		)
 		(uuid "f653f8f6-2ea3-4da8-b358-4c5fa2c535bc")
+	)
+	(wire
+		(pts
+			(xy 190.5 81.28) (xy 190.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8800c48-37f6-4141-a9d4-6a8ac065a391")
 	)
 	(wire
 		(pts
@@ -2781,13 +2841,33 @@
 	)
 	(wire
 		(pts
-			(xy 186.1058 128.651) (xy 186.055 128.651)
+			(xy 198.12 129.3876) (xy 227.2538 129.3876)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffd32951-978a-4bb0-a843-006c14d9e521")
+		(uuid "fbbba751-e9be-406c-b503-611c8dbe9b3e")
+	)
+	(wire
+		(pts
+			(xy 193.04 81.28) (xy 193.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc93c5b-5853-4de3-aa30-130202360d0f")
+	)
+	(wire
+		(pts
+			(xy 226.06 127) (xy 229.87 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee994f6-cf41-4dbf-9176-85c59ad1b2b2")
 	)
 	(text "30-62V"
 		(exclude_from_sim no)
@@ -2823,6 +2903,17 @@
 			(justify right bottom)
 		)
 		(uuid "c6535b10-3b7f-4b41-820e-5f543ffe45fe")
+	)
+	(label "VBUS"
+		(at 128.27 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed76e52d-a4d8-4a5e-b4dd-09955f4ea775")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4575,7 +4666,7 @@
 	)
 	(sheet
 		(at 134.62 104.14)
-		(size 51.435 59.69)
+		(size 63.5 59.69)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.254)
@@ -4655,7 +4746,7 @@
 			(uuid "56e83b21-9484-4939-bca3-71e6079826f8")
 		)
 		(pin "3.3V" input
-			(at 134.62 107.95 180)
+			(at 134.62 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,16 +4754,6 @@
 				(justify left)
 			)
 			(uuid "7d2b9d62-e5d4-4013-a623-ce4843c49ef5")
-		)
-		(pin "FAN_PWM" output
-			(at 186.055 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "45c0dc4f-fe38-44c3-860f-c5283dae5d27")
 		)
 		(pin "FAN_PWM_MCU" input
 			(at 179.959 104.14 90)
@@ -4715,7 +4796,7 @@
 			(uuid "f80e5f0b-3f7c-4651-8cde-e4c1ed1394eb")
 		)
 		(pin "PURGE_VALVE" output
-			(at 186.055 153.67 0)
+			(at 198.12 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +4806,7 @@
 			(uuid "b0a91ab1-f0ce-4dc1-b16d-f615eb970535")
 		)
 		(pin "Temp_sensor" output
-			(at 186.055 137.5918 0)
+			(at 198.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +4835,7 @@
 			)
 			(uuid "bc470bea-ed80-452f-b4df-8cc7c72939ed")
 		)
-		(pin "SC_V" input
+		(pin "FC_V" input
 			(at 134.62 114.8334 180)
 			(effects
 				(font
@@ -4805,7 +4886,7 @@
 			(uuid "afe4dd09-05ce-410c-85d5-7a75b72b5b0e")
 		)
 		(pin "Main_Valve" output
-			(at 186.055 158.9024 0)
+			(at 198.12 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +4906,7 @@
 			(uuid "282b67e6-217d-40b5-8434-eef07c2e8d2f")
 		)
 		(pin "FAN_GND" output
-			(at 186.055 133.5024 0)
+			(at 198.12 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +4936,7 @@
 			(uuid "3383e733-3b31-4034-a215-22a74bf870e6")
 		)
 		(pin "FAN_2_TACHO" input
-			(at 186.055 130.81 0)
+			(at 198.12 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +4946,7 @@
 			(uuid "ad9a7058-0323-47c6-905f-a63390bde424")
 		)
 		(pin "FAN_1_TACHO" input
-			(at 186.055 128.651 0)
+			(at 198.12 128.651 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,6 +4964,76 @@
 				(justify left)
 			)
 			(uuid "0c3a3160-f68a-4104-a955-a591869ed003")
+		)
+		(pin "I{slash}O_1_MCU" input
+			(at 187.96 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cdfeb21c-001b-4fbd-8b1b-3835c69e0a39")
+		)
+		(pin "I{slash}O_2_MCU" input
+			(at 190.5 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e798598c-cd88-4b00-815e-9bb54934abb8")
+		)
+		(pin "FAN_IN_PWM" input
+			(at 198.12 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7523a1e8-92fc-4ed3-bbab-8a1c07485376")
+		)
+		(pin "FAN_IN_PWM_MCU" output
+			(at 162.56 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7557f56d-d81d-45e4-b09f-0a6688c12c59")
+		)
+		(pin "I{slash}O_4_MCU" input
+			(at 195.58 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "abf61c44-c20e-4982-abe9-2ffe6d7d753e")
+		)
+		(pin "I{slash}O_3_MCU" input
+			(at 193.04 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d01bed49-d2c9-43b8-8285-a98d9d74680a")
+		)
+		(pin "5V" input
+			(at 134.62 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6e572c6f-5002-4f51-a699-c706092afb40")
 		)
 		(instances
 			(project "schematic-main"
@@ -4962,7 +5113,7 @@
 			)
 			(uuid "870eabf5-5979-40f6-9cfb-74a48c282a08")
 		)
-		(pin "SC_V" output
+		(pin "FC_V" output
 			(at 56.0832 39.37 270)
 			(effects
 				(font
@@ -4982,7 +5133,7 @@
 	)
 	(sheet
 		(at 134.62 27.94)
-		(size 51.054 53.34)
+		(size 63.5 53.34)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -5179,6 +5330,56 @@
 				(justify left)
 			)
 			(uuid "663e503c-944a-43be-ac2d-d4f492f2f0b1")
+		)
+		(pin "I{slash}O_2_MCU" input
+			(at 190.5 81.28 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "517d0590-8672-4735-a2e2-3a052776548c")
+		)
+		(pin "I{slash}O_1_MCU" input
+			(at 187.96 81.28 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "314b9534-22b4-4190-a443-55906ab6ddb5")
+		)
+		(pin "I{slash}O_3_MCU" input
+			(at 193.04 81.28 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7d989255-018d-4653-aa36-bcbbf265448e")
+		)
+		(pin "I{slash}O_4_MCU" input
+			(at 195.58 81.28 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9e02041b-7efd-4f96-9b0d-e1201db8379c")
+		)
+		(pin "FAN_IN_PWM_MCU" input
+			(at 162.56 81.28 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "299fa539-e320-4525-9d07-31172304afda")
 		)
 		(instances
 			(project "schematic-main"

@@ -2862,6 +2862,12 @@
 		(uuid "3d3b9477-2ed5-4a75-82ed-bdee0f430455")
 	)
 	(junction
+		(at 265.43 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42849cf2-f9f9-46d4-97d9-2cb7d9ac36b0")
+	)
+	(junction
 		(at 242.57 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3054,10 +3060,6 @@
 		(uuid "9f4cd2ab-841d-4a02-b377-d4cee95f8935")
 	)
 	(no_connect
-		(at 261.62 138.43)
-		(uuid "ad280bb8-5c98-4d12-b3f8-9a02a372446e")
-	)
-	(no_connect
 		(at 261.62 146.05)
 		(uuid "c9d910af-b459-43be-a7fa-3e58bd89707f")
 	)
@@ -3094,6 +3096,16 @@
 			(type default)
 		)
 		(uuid "004a65a3-4f8c-4d5e-bb97-c0c01ee3d9a6")
+	)
+	(wire
+		(pts
+			(xy 266.7 138.43) (xy 265.43 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005c6a42-bf2b-4602-90e1-4e66a0ec2466")
 	)
 	(wire
 		(pts
@@ -3684,6 +3696,16 @@
 			(type default)
 		)
 		(uuid "7c2dc83c-2789-4d32-8132-7e2d05a67bee")
+	)
+	(wire
+		(pts
+			(xy 265.43 138.43) (xy 261.62 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e10c801-fb35-40b1-969a-c6c9837aee11")
 	)
 	(wire
 		(pts
@@ -4613,6 +4635,18 @@
 		)
 		(uuid "11970043-b035-48e1-a3b1-85c5889e07f9")
 	)
+	(hierarchical_label "FAN_IN_PWM_MCU"
+		(shape input)
+		(at 266.7 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14d3daff-14be-40c8-bd1d-4f50c405d993")
+	)
 	(hierarchical_label "Main_Valve_MCU"
 		(shape output)
 		(at 174.244 151.892 180)
@@ -5165,6 +5199,76 @@
 			(project "schematic-main"
 				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/f92f58ec-64e0-437c-bc00-8ae46a3b3054"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b03b921-2ad6-452c-acff-a534175eef9e")
+		(property "Reference" "R48"
+			(at 267.335 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 267.335 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 267.208 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8ffd9c8-63e3-43df-aa38-99af610ea886")
+		)
+		(pin "2"
+			(uuid "47388f6c-bb90-4cdc-b0b1-7ed933e5b114")
+		)
+		(instances
+			(project "schematic-main"
+				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/f92f58ec-64e0-437c-bc00-8ae46a3b3054"
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -6503,6 +6607,72 @@
 			(project "schematic-main"
 				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/f92f58ec-64e0-437c-bc00-8ae46a3b3054"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 265.43 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d8d9028-bba4-406c-be20-dfdf4c286a10")
+		(property "Reference" "#PWR091"
+			(at 265.43 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 265.43 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dfbe59e-4d85-45aa-9617-f6533c5bb309")
+		)
+		(instances
+			(project "schematic-main"
+				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/f92f58ec-64e0-437c-bc00-8ae46a3b3054"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -8763,6 +8933,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 265.43 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8cc3184-9430-4e27-808c-05b88108ddb4")
+		(property "Reference" "R47"
+			(at 267.716 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 267.716 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 263.652 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9af2bd4a-57ad-474e-9fd8-0565f9c438be")
+		)
+		(pin "2"
+			(uuid "ea2f1619-9c7e-4a18-8704-2b273345b936")
+		)
+		(instances
+			(project "schematic-main"
+				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/f92f58ec-64e0-437c-bc00-8ae46a3b3054"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 57.15 50.8 0)
 		(unit 1)
@@ -8824,6 +9064,73 @@
 			(project "schematic-main"
 				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/f92f58ec-64e0-437c-bc00-8ae46a3b3054"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f16d9153-b4ec-4ff9-8a80-89deb4e023ff")
+		(property "Reference" "#PWR090"
+			(at 265.43 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96c03bbd-c43d-4daa-8873-0990a203861f")
+		)
+		(instances
+			(project "schematic-main"
+				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/f92f58ec-64e0-437c-bc00-8ae46a3b3054"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
