@@ -2071,16 +2071,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.959 81.28) (xy 179.959 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c984532-9314-4518-b25a-4748da0552bd")
-	)
-	(wire
-		(pts
 			(xy 177.165 81.28) (xy 177.165 104.14)
 		)
 		(stroke
@@ -4755,16 +4745,6 @@
 			)
 			(uuid "7d2b9d62-e5d4-4013-a623-ce4843c49ef5")
 		)
-		(pin "FAN_PWM_MCU" input
-			(at 179.959 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a4d87c9c-b229-4266-91ce-c817d0c614b5")
-		)
 		(pin "PURGE_VALVE_MCU" input
 			(at 182.499 104.14 90)
 			(effects
@@ -5200,16 +5180,6 @@
 				(justify left)
 			)
 			(uuid "f5688fc2-4d13-42e8-b0ce-6c5cb21e5da6")
-		)
-		(pin "FAN_PWM_MCU" output
-			(at 179.959 81.28 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9781b967-94e8-487e-9eba-feda060133e0")
 		)
 		(pin "PURGE_VALVE_MCU" output
 			(at 182.499 81.28 270)

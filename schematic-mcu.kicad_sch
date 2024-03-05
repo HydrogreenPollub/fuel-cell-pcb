@@ -2981,12 +2981,6 @@
 		(color 0 0 0 0)
 		(uuid "facaef34-a4d5-4521-9392-e926595b1182")
 	)
-	(junction
-		(at 172.847 110.236)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc86f09f-d888-4f6b-9fef-63bd849a5ce5")
-	)
 	(no_connect
 		(at 261.62 77.47)
 		(uuid "0426d8ef-b514-41d9-965c-051216f732db")
@@ -3339,26 +3333,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.847 110.236) (xy 176.911 110.236)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f44e73d-6ba9-460c-8923-29836f062258")
-	)
-	(wire
-		(pts
-			(xy 176.911 110.236) (xy 176.911 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "391c73ae-27f6-4408-ac4a-0d386b6b612d")
-	)
-	(wire
-		(pts
 			(xy 191.77 135.89) (xy 195.58 135.89)
 		)
 		(stroke
@@ -3446,16 +3420,6 @@
 			(type default)
 		)
 		(uuid "47ce7b23-0354-4bce-ab4a-ca8b54a30097")
-	)
-	(wire
-		(pts
-			(xy 166.497 110.236) (xy 172.847 110.236)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fc94a39-1b14-4d8b-b6e7-cd1ef518774f")
 	)
 	(wire
 		(pts
@@ -3626,16 +3590,6 @@
 			(type default)
 		)
 		(uuid "6e2047bd-5b63-4211-92fa-da3f5501319f")
-	)
-	(wire
-		(pts
-			(xy 176.911 118.11) (xy 195.58 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fc84662-7ec2-472a-ba5c-d91d9b9eec1f")
 	)
 	(wire
 		(pts
@@ -4066,16 +4020,6 @@
 			(type default)
 		)
 		(uuid "bbbd6eb4-b758-47a8-b9dc-08ef2ba0cd71")
-	)
-	(wire
-		(pts
-			(xy 169.037 102.616) (xy 172.847 102.616)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bca6a53a-63f2-4a5b-87a4-90ec7ad318fe")
 	)
 	(wire
 		(pts
@@ -4791,18 +4735,6 @@
 		)
 		(uuid "aea273bc-b4e2-408d-9771-3732bdf599ff")
 	)
-	(hierarchical_label "FAN_PWM_MCU"
-		(shape output)
-		(at 166.497 110.236 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bd4be3f8-85a5-4fea-8a7e-d9ae6ba40459")
-	)
 	(hierarchical_label "FC_Voltage_MCU"
 		(shape input)
 		(at 261.62 100.33 0)
@@ -5232,7 +5164,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 267.208 134.62 90)
 			(effects
 				(font
@@ -6359,7 +6291,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 124.968 36.83 90)
 			(effects
 				(font
@@ -7359,73 +7291,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 169.037 102.616 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ff0f8c3-4d20-4a80-a1de-11b6ada53ad0")
-		(property "Reference" "#PWR046"
-			(at 169.037 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 169.037 107.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 169.037 102.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 169.037 102.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 169.037 102.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be8e9626-17e7-41fb-b437-fe5e5c05b212")
-		)
-		(instances
-			(project "schematic-main"
-				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/f92f58ec-64e0-437c-bc00-8ae46a3b3054"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 256.54 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7486,76 +7351,6 @@
 			(project "schematic-main"
 				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/f92f58ec-64e0-437c-bc00-8ae46a3b3054"
 					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 172.847 106.426 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a18ab49a-cf52-4ee5-9c64-879cb69f922b")
-		(property "Reference" "R21"
-			(at 174.752 105.1559 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 174.752 107.6959 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 174.625 106.426 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.847 106.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.847 106.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f368ef0-1541-42fc-8e49-316c65a94e57")
-		)
-		(pin "2"
-			(uuid "983add9d-1b30-49c5-a586-0ec1eb49b2a9")
-		)
-		(instances
-			(project "schematic-main"
-				(path "/c9ad7189-d3b2-414a-9743-efd8e57cd755/f92f58ec-64e0-437c-bc00-8ae46a3b3054"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8397,7 +8192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 184.15 158.623 90)
 			(effects
 				(font
@@ -8534,7 +8329,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 143.129 122.174 90)
 			(effects
 				(font
@@ -8604,7 +8399,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 137.16 141.224 90)
 			(effects
 				(font
@@ -8960,7 +8755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 263.652 142.24 90)
 			(effects
 				(font

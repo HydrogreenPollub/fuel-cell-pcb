@@ -550,7 +550,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "schematic-main.step",
       "svg": "",
       "vrml": ""
     },
