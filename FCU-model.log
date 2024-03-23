@@ -1,0 +1,1083 @@
+Translacja STEP do Solid Edge
+Data: sobota,marzec 16,2024 01:03PM
+Plik Ÿród³owy: C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\FCU-model.step
+Autor: Pcbnew
+Organizacja: Kicad
+System Ÿród³owy: KiCad to STEP converter
+
+Sprzêt:
+Procesor: Intel(R) Xeon(R) CPU E5-2643 0 @ 3.30GHz
+System operacyjny: Windows 10 Professional Version:22H2 Build:19045 System Type:64-bit
+Zainstalowana pamiêæ: 63.95 GB
+
+Informacje o oprogramowaniu
+Wersja Parasolid: 36.0.142
+Wersja PSBodyShop: 36.0.108
+Wersja adaptera Step: 13.0.163
+Wersja Solid Edge: 224.00.00.101 x64
+
+Opcje importu STEP
+Importuj bry³y uproszczone: W³¹cz
+Importuj bry³y kontrolne: Wy³¹cz
+Importuj krzywe: W³¹cz
+Importuj bez zapisu: W³¹cz
+Importuj wiele obiektów jako pojedynczy plik czêœci: W³¹cz
+Optymalizacja importu:Wy³¹cz
+Importuj powierzchnie zszywane: W³¹cz
+Importuj obiekty bry³owe operacji Boole'a: W³¹cz
+Utwórz element podstawowy: W³¹cz
+Upraszczaj geometriê: W³¹cz
+Importuj krzywe odciœniête: W³¹cz
+Importuj napêd: C:
+Importuj powierzchnie zszywane: W³¹cz
+Importuj powierzchnie: W³¹cz
+Importuj œcie¿kê wyjœciow¹: C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb
+Importuj domyœln¹ œcie¿kê wyjœciow¹: W³¹cz
+Importuj PMI: Wy³¹cz
+Importuj jako komponenty wewnêtrzne: Wy³¹cz
+Œcie¿ka importu: 
+
+Translacja do typów danych Parasolid...
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
+Warn: PSF_INVALID_COLORS
++Pocz¹tek z³o¿enia: 1
++Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\FCU-model.asm
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.par
+|--+Wszystkich czêœci: 2
+|--+Z³o¿eñ: 0
+|--+Bry³: 2
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.par
+|--+Wszystkich czêœci: 2
+|--+Z³o¿eñ: 0
+|--+Bry³: 2
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PinSocket_1x01_P2.54mm_Vertical.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PinSocket_1x01_P254mm_Vertical.par
+|--+Wszystkich czêœci: 2
+|--+Z³o¿eñ: 0
+|--+Bry³: 2
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\SOIC-8_3.9x4.9mm_P1.27mm.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\SOIC_8_39x49mm_P127mm.par
+|--+Wszystkich czêœci: 2
+|--+Z³o¿eñ: 0
+|--+Bry³: 2
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_2512_6332Metric.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_2512_6332Metric.par
+|--+Wszystkich czêœci: 2
+|--+Z³o¿eñ: 0
+|--+Bry³: 2
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\39-30-1020.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\039301020.par
+|--+Wszystkich czêœci: 2
+|--+Z³o¿eñ: 0
+|--+Bry³: 2
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PinSocket_1x01_P2.54mm_Vertical.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\L_0402_1005Metric.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\L_0402_1005Metric.par
+|--+Wszystkich czêœci: 2
+|--+Z³o¿eñ: 0
+|--+Bry³: 2
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\39-30-1020.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PinSocket_1x01_P2.54mm_Vertical.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\SRN3015TA-4R7M.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\HPC3015.par
+|--+Wszystkich czêœci: 24
+|--+Z³o¿eñ: 0
+|--+Bry³: 24
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\3425L200_60MR.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\ASSEMBLY.par
+|--+Wszystkich czêœci: 6
+|--+Z³o¿eñ: 0
+|--+Bry³: 6
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\CP_Elec_8x10.5.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\CP_Elec_8x105.par
+|--+Wszystkich czêœci: 2
+|--+Z³o¿eñ: 0
+|--+Bry³: 2
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\39-30-1020.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PMPB15XPAX.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\SOT1220 3D View.par
+|--+Wszystkich czêœci: 34
+|--+Z³o¿eñ: 0
+|--+Bry³: 34
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\CP_Elec_8x10.5.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\AD8544ARUZ-REEL.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\ASSEMBLY_0.par
+|--+Wszystkich czêœci: 30
+|--+Z³o¿eñ: 0
+|--+Bry³: 30
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PinSocket_1x01_P2.54mm_Vertical.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PinSocket_1x01_P2.54mm_Vertical.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PinSocket_1x01_P2.54mm_Vertical.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PMPB15XPAX.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\TPSMC_LTF.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\ASSEMBLY_1.par
+|--+Wszystkich czêœci: 6
+|--+Z³o¿eñ: 0
+|--+Bry³: 6
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\IHLP6767DZER470M11.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\IHLP6767DZ.par
+|--+Wszystkich czêœci: 2
+|--+Z³o¿eñ: 0
+|--+Bry³: 2
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\CP_Elec_8x10.5.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PMPB15XPAX.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\LED_1206_3216Metric.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\LED_1206_3216Metric.par
+|--+Wszystkich czêœci: 2
+|--+Z³o¿eñ: 0
+|--+Bry³: 2
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_2512_6332Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\KC3225K40.0000C1GE00.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\ASSEMBLY_2.par
+|--+Wszystkich czêœci: 10
+|--+Z³o¿eñ: 0
+|--+Bry³: 10
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\LM5013 - SO-8.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\D0008B_ASM.par
+|--+Wszystkich czêœci: 18
+|--+Z³o¿eñ: 0
+|--+Bry³: 18
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PinSocket_1x01_P2.54mm_Vertical.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PinSocket_1x01_P2.54mm_Vertical.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\39-30-1020.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PinSocket_1x01_P2.54mm_Vertical.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_2512_6332Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\CP_Elec_6.3x7.7.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\CP_Elec_63x77.par
+|--+Wszystkich czêœci: 2
+|--+Z³o¿eñ: 0
+|--+Bry³: 2
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\39-30-1020.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\LM76202QPWPRQ1.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PWP0016H_ASM.par
+|--+Wszystkich czêœci: 36
+|--+Z³o¿eñ: 0
+|--+Bry³: 36
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PinSocket_1x01_P2.54mm_Vertical.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\SOT-323_SC-70.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\SOT_323_SC_70.par
+|--+Wszystkich czêœci: 2
+|--+Z³o¿eñ: 0
+|--+Bry³: 2
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\CP_Elec_8x10.5.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\216990-0002.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\2169900002.par
+|--+Wszystkich czêœci: 2
+|--+Z³o¿eñ: 0
+|--+Bry³: 2
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\39-30-3035.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\039303035.par
+|--+Wszystkich czêœci: 2
+|--+Z³o¿eñ: 0
+|--+Bry³: 2
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\39-29-1107.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\039291107.par
+|--+Wszystkich czêœci: 2
+|--+Z³o¿eñ: 0
+|--+Bry³: 2
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\LED_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\MBRD20100CT-13.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\ZXMP7A17KTC.par
+|--+Wszystkich czêœci: 10
+|--+Z³o¿eñ: 0
+|--+Bry³: 10
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\LED_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\CP_Elec_8x10.5.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\MBRD20100CT-13.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\SOT-666.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\SOT_666.par
+|--+Wszystkich czêœci: 2
+|--+Z³o¿eñ: 0
+|--+Bry³: 2
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PinSocket_1x01_P2.54mm_Vertical.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PinSocket_1x01_P2.54mm_Vertical.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\C_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\PinSocket_1x01_P2.54mm_Vertical.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Utworzono plik z³o¿enia SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm.asm
+|  |--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\QFN-56-1EP_7x7mm_Pitch0.4mm.par
+|--+Wszystkich czêœci: 2
+|--+Z³o¿eñ: 0
+|--+Bry³: 2
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Pocz¹tek z³o¿enia: 2
+|--+Ponowne u¿ycie pliku C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\R_1206_3216Metric.asm
+|--+Wszystkich czêœci: 0
+|--+Z³o¿eñ: 0
+|--+Bry³: 0
+|--+Obiektów powierzchniowych: 0
+|--+Koniec z³o¿enia: 2
+|--+Utworzono plik czêœci SE C:\Users\Micha³\Desktop\Hydros\Hardware 2024\fuel-cell-pcb\schematic-main_PCB.par
++Wszystkich czêœci: 28
++Z³o¿eñ: 26
++Bry³: 2
++Obiektów powierzchniowych: 0
++Koniec z³o¿enia: 1
+Proces translacji zosta³ zakoñczony
+Ca³kowity czas wymagany do translacji i dalszego przetwarzania:00 : 00 : 13
